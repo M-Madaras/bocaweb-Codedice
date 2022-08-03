@@ -9,8 +9,7 @@ fetch('https://codice-boca.web.app/menu')
       
      let htmlSegment = `<div class="menu-item">
      <h3>${recipe.title}</h3>
-     <p>${recipe.description}</p>
- </div>`
+     <p>${recipe.description}</p></div>`
 
      html += htmlSegment
     })
