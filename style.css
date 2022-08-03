@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@100;400&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*c CSS variables */
+
+:root {
+    --main-color: #ed68ed;
+    --second-color: #6baaed;
+    --third-color: #d8812a;
+    --default-size: 18px;
+    --font-style: 'Montez', 'cursive';
+    --font-style2: 'Montserrat', sans-serif;
+}
+
+
+
+
+body {
+    background-color: var(--second-color);
+    color: var(--main-color);
+    font-size: var(--default-size);
+    font-family: var(--font-style);
+}
+
+.parent-container {
+    display: flex;
+    background-color: lightcoral;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+}
+
+/* formatting for other devices when using same site*/
+@media (max-width:600px) {
+    .parent-container {
+        flex-direction: column;
+    }
+}
+
+.box1,
+.box2,
+.box3 {
+    padding: 4rem;
+    margin: 2rem;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: #451445;
+}
+
+.box3 {
+    background-color: aquamarine;
+}
