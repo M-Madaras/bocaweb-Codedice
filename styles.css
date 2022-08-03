@@ -28,7 +28,7 @@ li {
     background-image: url(/cp.webp);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: center -190px;
 
     max-width: 1024px;
     background-color: #fff;
